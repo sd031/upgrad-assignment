@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  cloudbox-app:
+    image: 211125312702.dkr.ecr.us-east-2.amazonaws.com/cloudbox-app:latest
+    ports:
+      - "80:80"
+    restart: unless-stopped
